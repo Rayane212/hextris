@@ -12,6 +12,6 @@ jobs:
       with:
         server: files.000webhost.com
         username: RayaneH
-        password: cr5LTG3E&j2KYV(^DVs(
+        password: ${{ secrets.PASSWORD }}
         server-dir: public_html/
         timeout: 90000
